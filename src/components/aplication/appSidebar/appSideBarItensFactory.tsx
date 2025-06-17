@@ -44,7 +44,7 @@ export function AppSidebarItensFactory() {
         if ('sections' in item) {
           return AppSidebarSection(item.title || '', item);
         }
-        return <AppSidebarIten key={index} {...item} />;
+        return <AppSidebarIten key={index} {...item}/>;
       })}
     </div>
   );
