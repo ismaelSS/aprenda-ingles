@@ -42,7 +42,11 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --color-hover-1: var(--hover);
+  --color-hover-1: var(--hover-1);
+  --color-selected-1: var(--selected-1);
+  --color-disabled-1: var(--disabled-1);
+  --color-font-1: var(--foreground)
+  --color-font-1: var(--font-2)
 }
 
 :root {
@@ -79,7 +83,10 @@
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
 
-  --hover: oklch(76.9% 0.188 70.08)
+  --hover-1: oklch(76.9% 0.188 70.08);
+  --selected-1: oklch(76.9% 0.188 70.08);
+  --disabled-1:oklch(0.705 0.015 286.067);
+  --font-2: oklch(0.1677 0.0364 259.2);
 }
 
 .dark {
@@ -115,7 +122,11 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.552 0.016 285.938);
 
-  --hover: oklch(76.9% 0.188 70.08)
+  --hover-1: oklch(76.9% 0.188 70.08);
+  --selected-1: oklch(76.9% 0.188 70.08);
+  --disabled-1:oklch(0.705 0.015 286.067);
+  --font-2: oklch(0.1677 0.0364 259.2);
+  
 }
 
 @layer base {
