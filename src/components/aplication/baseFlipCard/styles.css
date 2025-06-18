@@ -1,0 +1,16 @@
+.square-side {
+  transition: transform 0.8s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+}
+
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flipped .back {
+  transform: rotateY(360deg);
+}
