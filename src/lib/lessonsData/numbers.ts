@@ -1,6 +1,12 @@
-export const numbers = [
+export interface tLessonNumberData {
+  numeric: string 
+  write: string;
+  PortuguesePronunciation: string;
+}
+
+export const lessonNumberData: tLessonNumberData[] = [
   {
-    numeric: 0,
+    numeric: '0',
     write: "zero",
     PortuguesePronunciation: "zirou",
   },
@@ -104,7 +110,6 @@ export const numbers = [
     write: "twenty",
     PortuguesePronunciation: "tuêni",
   },
-  ,
   {
     numeric: '30',
     write: "thirty",
@@ -138,7 +143,7 @@ export const numbers = [
   {
     numeric: '90',
     write: "ninety",
-    PortuguesePronunciation: "naintí / nainei",
+    PortuguesePronunciation: "naintí",
   },
   {
     numeric: '-00',
@@ -150,5 +155,4 @@ export const numbers = [
     write: "thousand",
     PortuguesePronunciation: "thauzãn",
   }
-  
 ]

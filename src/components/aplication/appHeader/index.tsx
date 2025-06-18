@@ -6,7 +6,7 @@ import { appVariables } from "@/lib/project-variables";
 
 export default function AppHeader() {
   return(
-    <header className="flex items-center justify-between p-4">
+    <header className="flex items-center justify-between p-4 h-14">
       <div className="flex items-center space-x-4">
         <SidebarTrigger className="cursor-pointer hover:text-hover-1" />
         <Image

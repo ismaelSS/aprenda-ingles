@@ -25,6 +25,11 @@ export const appSideMenuNavigation: Array<AppSideMenuNavigationItem | AppSideMen
         isEnable: true,
       },
       {
+        name: "números ordinais",
+        href: "/lessons/ordinais",
+        isEnable: false,
+      },
+      {
         name: "alfabeto",
         href: "/lessons/alphabet",
         isEnable: false,
