@@ -45,8 +45,8 @@
   --color-hover-1: var(--hover-1);
   --color-selected-1: var(--selected-1);
   --color-disabled-1: var(--disabled-1);
-  --color-font-1: var(--foreground)
-  --color-font-1: var(--font-2)
+  --color-font-1: var(--foreground);
+  --color-font-1: var(--font-2);
 }
 
 :root {
