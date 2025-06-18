@@ -87,7 +87,17 @@ export default function PageNumbers() {
         <div className="flex-1 flex gap-4 flex-col md:flex-row">
           <Card className="p-4 rounded-xs relative flex justify-center h-[56vw] md:h-full w-full md:w-7/12">
 
-            <iframe allowFullScreen width="560" height="315" className="w-full h-full" src="https://www.youtube.com/embed/hgw85291t78?si=rhuM3ITh35tUQ8fh" title="SEGREDO para Aprender os NÚMEROS em INGLÊS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe 
+          allowFullScreen 
+          width="560" 
+          height="315" 
+          className="w-full h-full" 
+          src="https://www.youtube.com/embed/hgw85291t78?si=rhuM3ITh35tUQ8fh" 
+          title="SEGREDO para Aprender os NÚMEROS em INGLÊS" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerPolicy="strict-origin-when-cross-origin"
+          />
 
           </Card>
 
