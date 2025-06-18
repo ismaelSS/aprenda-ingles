@@ -55,53 +55,53 @@ function getNumberInWords(num: number): { words: string; wordsSpeak: string } {
   ]
 
   const onesSpeak = [
-    '',
-    'uãn',
-    'tiú',
-    'thríí',
-    'fór',
-    'faiv',
-    'saecs',
-    'séven',
-    'eit',
-    'nain',
-    'tén',
-    'ãleven',
-    'tuélv',
-    'thãrtíín',
-    'fórtíín',
-    'fiftíín',
-    'sicstíín',
-    'séventíín',
-    'eitíín',
-    'naintíín',
-  ]
+  '',
+  'uãn',
+  'tíu',
+  'thrii',
+  'fór',
+  'faiv',
+  'saecs',
+  'séven',
+  'eit',
+  'nain',
+  'tén',
+  'ãleven',
+  'tuélv',
+  'thãrtíín',
+  'fórtíín',
+  'fíftíín',
+  'sicstíín',
+  'séventíín',
+  'eitíín',
+  'naintíín',
+]
 
-  const tensSpeak = [
-    '',
-    '',
-    'twêni',
-    'thãrri',
-    'fórtí',
-    'fiftí',
-    'sicstí',
-    'sevení',
-    'eirrí',
-    'naintí',
-  ]
+const tensSpeak = [
+  '',
+  '',
+  'tuêni',
+  'thãrì',
+  'fórrí',
+  'fiftí',
+  'sicstí',
+  'sevení',
+  'eirí',
+  'naintí',
+]
 
-  const hundredsSpeak = [
-    '',
-    'uãn rãndrid',
-    'tiú rãndrid',
-    'thríí rãndrid',
-    'fór rãndrid',
-    'faiv rãndrid',
-    'saecs rãndrid',
-    'séven rãndrid',
-    'eit rãndrid',
-    'nain rãndrid',
-  ]
+const hundredsSpeak = [
+  '',
+  'uãn rãndrid',
+  'tíu rãndrid',
+  'thrii rãndrid',
+  'fór rãndrid',
+  'faiv rãndrid',
+  'saecs rãndrid',
+  'séven rãndrid',
+  'eit rãndrid',
+  'nain rãndrid',
+]
 
   if (num === 0) return { words: 'zero', wordsSpeak: 'ziróu' }
   if (num === 1000000) return { words: 'one million', wordsSpeak: 'uãn miliãn' }

@@ -28,12 +28,12 @@ export default function BaseCardFlip() {
   }
 
   return (
-    <div className="flex flex-col gap-6 items-center flex-1 w-2/3 ">
+    <div className="flex flex-col gap-6 items-center flex-1 w-full ">
       <div
-        className="w-full h-4/5 max-w-[90vw] relative "
+        className="w-full h-4/5 relative "
         onClick={handleFlip}
       >
-        <div className={`square-item ${isFlipped ? 'flipped' : ''}`}>
+        <div className={`square-item cursor-pointer ${isFlipped ? 'flipped' : ''}`}>
           <div className="square-side front rounded-md absolute backface-hidden size-full bg-foreground flex items-center justify-center text-background text-2xl">
             <p className="text-3xl font-bold">{cardValues?.number}</p>
             <p className='text-xs font-light absolute bottom-0.5 w-full text-center'>click no card para ver como se escreve</p>
@@ -41,7 +41,7 @@ export default function BaseCardFlip() {
 
           <div className="square-side back rounded-md  absolute backface-hidden size-full bg-primary flex w-full items-center justify-between text-center flex-col gap-2 p-3">
             <p className="text-3xl font-bold">{cardValues?.number}</p>
-            <div className="relative flex flex-col gap-10">
+            <div className="relative flex flex-col gap-10 w-full overflow-y-auto">
               <p className="">{cardValues?.words}</p>
               <p className="">{cardValues?.wordsSpeak}</p>
             </div>
@@ -51,7 +51,7 @@ export default function BaseCardFlip() {
       </div>
 
       <button
-        className="text5 w-full bg-primary rounded-md font-semibold h-16"
+        className="text5 w-full bg-primary rounded-md font-semibold h-16 cursor-pointer relative active:-bottom-0.5 active:-right-0.5 shadow-md shadow-black"
         onClick={resetAll}
       >
         resetar
