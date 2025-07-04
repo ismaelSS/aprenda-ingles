@@ -20,6 +20,11 @@ export const appSideMenuNavigation: Array<AppSideMenuNavigationItem | AppSideMen
     title: "Inglês Basico (A1)",
     sections: [
       {
+        name: "alfabeto",
+        href: "/lessons/alphabet",
+        isEnable: true,
+      },
+      {
         name: "números",
         href: "/lessons/numbers",
         isEnable: true,
@@ -27,11 +32,6 @@ export const appSideMenuNavigation: Array<AppSideMenuNavigationItem | AppSideMen
       {
         name: "números ordinais",
         href: "/lessons/ordinais",
-        isEnable: false,
-      },
-      {
-        name: "alfabeto",
-        href: "/lessons/alphabet",
         isEnable: false,
       },
     ]

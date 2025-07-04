@@ -1,3 +1,5 @@
+import { iBaseCardContent } from "@/components/aplication/baseFlipCard";
+
 export interface iGetRandomNumberAndWords {
   number: string
   words: string
@@ -164,9 +166,9 @@ function probabilityManipulator() {
   }
 }
 
-export function getRandomNumberAndWords(): iGetRandomNumberAndWords {
+export function getRandomNumberAndWords(): iBaseCardContent {
   const randomNumber = Math.floor(Math.random() * probabilityManipulator())
   const formattedNumber = randomNumber.toLocaleString('en-US')
   const numberInWords = getNumberInWords(randomNumber)
-  return { number: formattedNumber, ...numberInWords }
+  return { front:{text: formattedNumber}, back:{title:formattedNumber, text: numberInWords.words, secondaryText: numberInWords.wordsSpeak}}
 }
