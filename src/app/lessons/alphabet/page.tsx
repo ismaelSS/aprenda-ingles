@@ -13,8 +13,8 @@ export default function PageAlphabet() {
         </Card>
         
 
-        <div className="flex-1 flex gap-4">
-          <Card className="rounded-xs h-full flex flex-2 justify-center items-center p-4 ">
+        <div className="flex-1 flex gap-4"> 
+          <Card className="rounded-xs h-[40vh] md:h-full flex flex-2 justify-center items-center p-4 ">
             <AlphabetCardGame />
           </Card>
           <div className="hidden md:flex flex-col justify-center items-center md:flex-1 text-center ">
