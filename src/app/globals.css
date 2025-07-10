@@ -47,6 +47,9 @@
   --color-disabled-1: var(--disabled-1);
   --color-font-1: var(--foreground);
   --color-font-1: var(--font-2);
+  --color-font-1: var(--font-2);
+  --color-text-emphasis-1: var(--text-emphasis-1);
+  --color-text-emphasis-2: var(--text-emphasis-2);
 }
 
 :root {
@@ -87,6 +90,9 @@
   --selected-1: oklch(76.9% 0.188 70.08);
   --disabled-1:oklch(0.705 0.015 286.067);
   --font-2: oklch(0.1677 0.0364 259.2);
+
+  --text-emphasis-1: oklch(0.577 0.245 27.325);
+  --text-emphasis-2: oklch(0.488 0.243 264.376);
 }
 
 .dark {
@@ -126,6 +132,9 @@
   --selected-1: oklch(76.9% 0.188 70.08);
   --disabled-1:oklch(0.705 0.015 286.067);
   --font-2: oklch(0.1677 0.0364 259.2);
+  
+  --text-emphasis-1: oklch(0.577 0.245 27.325);
+  --text-emphasis-2: oklch(0.488 0.243 264.376);
   
 }
 

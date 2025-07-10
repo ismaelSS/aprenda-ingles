@@ -31,7 +31,12 @@ export const appSideMenuNavigation: Array<AppSideMenuNavigationItem | AppSideMen
       },
       {
         name: "números ordinais",
-        href: "/lessons/ordinais",
+        href: "/lessons/ordinalNumbers",
+        isEnable: true,
+      },
+      {
+        name: "endereço e telefone",
+        href: "/lessons/addressPhone",
         isEnable: false,
       },
     ]

@@ -8,7 +8,7 @@ export default function PageAlphabet() {
   return (
     <section className="flex flex-col md:flex-row relative flex-1 bg-foreground p-4 gap-4 overflow-y-scroll md:overflow-hidden">
       <div className="flex-3 flex flex-col gap-4 max-h-full" >
-        <Card className="rounded-xs flex flex-1 h-[50vh] max-h-1/2 p-4">
+        <Card className="rounded-xs flex-1 h-[50vh] md:max-h-1/2 p-4">
           <iframe  className="w-full h-full" width={400} height={200} src="https://www.youtube.com/embed/qG5zI9KUbl0?si=eWPIs3b5EyLo6TSO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen/>
         </Card>
         
