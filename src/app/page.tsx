@@ -1,3 +1,5 @@
+import { Card } from "@/components/ui/card";
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 justify-center items-center bg-foreground">
@@ -7,6 +9,9 @@ export default function Home() {
 
       <p className="text-white">use o menu no canto superior esquerdo para navegar</p>
         
+      <Card>
+
+      </Card>
     </div>
   );
 }
