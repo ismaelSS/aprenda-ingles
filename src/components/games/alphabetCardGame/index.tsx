@@ -50,8 +50,6 @@ export default function AlphabetCardGame() {
 
   function createAlphabetCardPicker():iBaseCardContent {
     sortLetters()
-    console.log('sortedLetters', sortedLetters);
-    console.log('restLetters', remainingLetters);
     
     const letersToText = sortedLetters?.map(item => item.letter).join('  ');
     const pronunciationToText = sortedLetters?.map(item => item.pronunciation).join(' . ');

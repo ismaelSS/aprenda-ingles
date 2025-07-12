@@ -37,10 +37,7 @@ export default function BaseCardFlip(
   }:iBaseCardFlipProps) {
   const [isFlipped, setIsFlipped] = useState(false)
   const [reset, setReset] = useState(false)
-  const [cardValues, setCardValues] = useState<iBaseCardContent>()
-
-  console.log('cardValues', cardValues);
-  
+  const [cardValues, setCardValues] = useState<iBaseCardContent>()  
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped)

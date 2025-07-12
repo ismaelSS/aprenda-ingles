@@ -7,7 +7,7 @@ import { appVariables } from "@/lib/project-variables";
 export default function AppHeader() {
   return(
     <header className="flex items-center justify-between p-4 h-14">
-      <div className="flex items-center space-x-4">
+      <Link href='/' className="flex items-center space-x-4">
         <SidebarTrigger className="cursor-pointer hover:text-hover-1" />
         <Image
           alt={`logo ${appVariables.appTitle}`} 
@@ -17,7 +17,7 @@ export default function AppHeader() {
           className="h-8 w-8"
         />
         <h1 className="text-xl font-bold">Aprenda inglês</h1>
-      </div>
+      </Link>
       <nav>
         <ul className="flex space-x-4">
           <Link className="cursor-pointer hover:text-hover-1" href="/">

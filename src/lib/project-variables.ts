@@ -35,6 +35,11 @@ export const appSideMenuNavigation: Array<AppSideMenuNavigationItem | AppSideMen
         isEnable: true,
       },
       {
+        name: "praticar palavras",
+        href: "/lessons/wordsTraining",
+        isEnable: true,
+      },
+      {
         name: "endereço e telefone",
         href: "/lessons/addressPhone",
         isEnable: false,
